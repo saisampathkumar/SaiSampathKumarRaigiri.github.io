@@ -12,6 +12,7 @@
     <title>SAI SAMPATH KUMAR RAIGIRI</title>
   </head>
   <body>
+        <button class="fa fa-arrow-up" onclick="topFunction()" id="myBtn" title="Go to top"></button>
         <nav class="navbar navbar-expand-lg bg-light " id="navbar">
                 <div class="justify-content-start"> 
                     <a class="navbar-brand brand " href="#" id="logo" >
@@ -21,24 +22,24 @@
                 <div id="menu" class="d-flex justify-content-end menu">
                     <ul class="navbar-nav">
                         <li class="nav-item mr-sm-8 text-dark">
-                        <a href="#">HOME</a>
+                        <a href="#" onclick="getHomeModule()">HOME</a>
                         </li>
                         <li class="nav-item mr-sm-6 text-dark">
-                        <a href="#">RESUME</a>
+                        <a href="#" onclick="getskillsModule()">SKILLS</a>
                         </li>
                         <li class="nav-item mr-sm-4 text-dark">
-                        <a href="#">SKILLS</a>
+                        <a href="#" onclick="getResumeModule()">RESUME</a>
                         </li>
                         <li class="nav-item mr-sm-2 text-dark">
-                        <a href="#">PROJECTS</a>
+                        <a href="#" onclick="getProjectModule()">PROJECTS</a>
                         </li>
                         <li class="nav-item mr-sm-0 text-dark">
-                        <a href="#">CONTACT</a>
+                        <a href="#" onclick="getContactModule()">CONTACT</a>
                         </li>
                     </ul>
                 </div>
         </nav>
-        <div style="width: 100%; margin-top: 60px;">
+        <div id="HOME" style="width: 100%; margin-top: 60px;">
             <img src="./Images/background-1-1.jpg" alt="background-1-1" style="width: 100%; height: 600px;background-color: black;">
             <div class="centered">
                 <span style="font-size: 40px;">Hi, I am</span>
@@ -55,18 +56,18 @@
                 <a href="https://www.facebook.com/rSaisampathkumar" target="none" class="fa fa-icons devicon-facebook-plain facebook"></a>
                 <a href="https://twitter.com/SampathkumarSai" target="none" class="fa fa-icons devicon-twitter-plain twitter"></a>
             </span>
-            <p></p>
+            <p ></p>
             <span style="text-decoration: none;"><button type="button" class="btn btn-info" style="padding: 5px;margin: 5px; text-decoration: none;"><a class="N" href="./Documents/Resume 1.pdf">RESUME</a></button></span>
             </div>
         </div>
-        <div class="card" style="background-color: lightgray; border-radius: 0%;">
-            <h2 class="skills" >My Skills</h2>
-            <div class="container mb-5">
+        <div id="SKILLS" class="card" style="background-color: lightgray; border-radius: 0%;">
+            <h2  class="skills" >My Skills</h2>
+            <div class="container ">
                 <div class="row">
                         <div class="card cards">
                                 <div class="card-body">
                                   <div class="card-title card-title-skill text-center">
-                                      <p class="fa fa-th-list"></p>
+                                      <p class="fa fa-th-list" style="color: #4267b2;"></p>
                                   </div>
                                   <h5 class="text-center">
                                         Programming Languages | Frameworks
@@ -98,7 +99,7 @@
                         <div class="card cards ">
                                 <div class="card-body justify-content-center">
                                     <div class="card-title card-title-skill text-center">
-                                            <p class="fa fa-database"></p>
+                                            <p class="fa fa-database" style="color: #4267b2;"></p>
                                     </div>
                                     <h5 class="text-center">
                                         Data Base | Tools
@@ -125,23 +126,23 @@
                         <div class="card cards">
                                 <div class="card-body">
                                   <div class="card-title card-title-skill text-center">
-                                      <p class="fa fa-cogs"></p>
+                                      <p class="fa fa-cogs" style="color: #4267b2;"></p>
                                   </div>
                                   <h5 class="text-center">
                                         Working on
                                     </h5>
                                     <br>
-                                    <ul class="skill-list" style="margin-left: 27%;">
+                                    <ul  class="skill-list" style="margin-left: 27%;">
                                         <li class="devicon-react-original-wordmark m-1 mb-1 mt-1" aria-hidden="true"></li>
                                         <li class="devicon-php-plain" aria-hidden="true"></li>
                                     </ul>
                                 </div>
                             </div>
+                            
                 </div>
+                
             </div>
         </div>
-
-
 <!-- <div>
     <div class="d-md-flex h-md-100 mt-5">
             <div class="col-md-1">
@@ -221,14 +222,14 @@
 </div> -->
     
 
-<div class="container">
+<div id="RESUME" class="container">
     <div class="mt-5 text-center" style="width: 100%;">
         <h2>Resume</h2>
     </div>
     <div class="row mt-4">
             <div class="cards">
                     <div class="page-header">
-                        <h3 id="timeline">Education</h3>
+                        <h3 id="timeline" style="color: #4267b2;">Education</h3>
                     </div>
                     <ul class="timeline">
                         <li class="timeline-inverted">
@@ -261,7 +262,7 @@
                 </div>
             <div class="cards ml-4">
                     <div class="page-header">
-                        <h3 id="timeline">Work Experience</h3>
+                        <h3 id="timeline" style="color: #4267b2;">Experience</h3>
                     </div>
                     <ul class="timeline">
                         <li class="timeline-inverted">
@@ -270,6 +271,7 @@
                             <div class="timeline-heading">
                               <h4 class="timeline-title">University of Missouri Kansas City</h4>
                               <h6>Student Assistent</h6>
+                              <p>Sept 2018 - Oct 2019</p>
                             </div>
                             <div class="timeline-body">
                               <p></p>
@@ -282,6 +284,7 @@
                             <div class="timeline-heading">
                               <h4 class="timeline-title">Bharat Sanchar Nigam Limited</h4>
                               <h6>Software Engineer</h6>
+                              <p>Jun 2017 – Jul 2018</p>
                             </div>
                             <div class="timeline-body">
                               <p></p>
@@ -293,6 +296,7 @@
                             <div class="timeline-heading">
                               <h4 class="timeline-title">Hindustan Computers Ltd</h4>
                               <h6>Industrial Design Intern</h6>
+                              <p>May-Aug 2016</p>
                             </div>
                             <div class="timeline-body">
                               <p></p>
@@ -304,6 +308,7 @@
                             <div class="timeline-heading">
                               <h4 class="timeline-title">Bharat Sanchar Nigam Limited</h4>
                               <h6>Program Analyst Intern</h6>
+                              <p>May - Aug 2015</p>
                             </div>
                             <div class="timeline-body">
                               <p></p>
@@ -315,8 +320,113 @@
     </div>
 </div>
 
+<div id="PROJECTS" class="card" style="background-color: lightgray; border-radius: 0%;">
+        <div class="mt-5 text-center" style="width: 100%;">
+                <h2>Some of my Projects</h2>
+<div class="row justify-content-center m-5">
+        <div class="col-sm-4">
+          <div class="card">                      
+            <div class="card-body">
+                <div class="card-title card-title-skill text-center">
+                  <p class="fa fa-whatsapp" style="color: #4267b2;"></p>
+                </div>
+              <h5 class="card-title">CHAT APPLICATION</h5>
+              <p class="card-text"></p>
+              <a href="" class="btn btn-primary">CODE</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-4">
+          <div class="card">                      
+            <div class="card-body">
+                <div class="card-title card-title-skill text-center">
+                  <p class="fa fa-graduation-cap" style="color: #4267b2;"></p>
+                </div>
+              <h5 class="card-title">STUDENT WORLD</h5>
+              <p class="card-text"></p>
+              <a href="" class="btn btn-primary">CODE</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-4">
+          <div class="card">                      
+            <div class="card-body">
+                <div class="card-title card-title-skill text-center">
+                  <p class="fa fa-user-md" style="color: #4267b2;"></p>
+                </div>
+              <h5 class="card-title">MEDICATION TAKE BACK</h5>
+              <p class="card-text"></p>
+              <a href="" class="btn btn-primary">CODE</a>
+            </div>
+          </div>
+        </div>
+</div><div class="row justify-content-center m-5">
+        <div class="col-sm-4">
+          <div class="card">                      
+            <div class="card-body">
+                <div class="card-title card-title-skill text-center">
+                  <p class="fa fa-gamepad" style="color: #4267b2;"></p>
+                </div>
+              <h5 class="card-title">GAMERS APPLICATION</h5>
+              <p class="card-text"></p>
+              <a href="" class="btn btn-primary">CODE</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-4">
+          <div class="card">                      
+            <div class="card-body">
+                <div class="card-title card-title-skill text-center">
+                  <p class="fa fa-twitter" style="color: #4267b2;"></p>
+                </div>
+              <h5 class="card-title">TWITTER DATA ANALYSIS</h5>
+              <p class="card-text"></p>
+              <a href="" class="btn btn-primary">CODE</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-4">
+          <div class="card">                      
+            <div class="card-body">
+                <div class="card-title card-title-skill text-center">
+                  <p class="fa fa-twitch" style="color: #4267b2;"></p>
+                </div>
+              <h5 class="card-title">SMART SWITCH</h5>
+              <p class="card-text"></p>
+              <a href="" class="btn btn-primary">CODE</a>
+            </div>
+          </div>
+        </div>
+</div>
+<div class="row justify-content-center m-5">
+        <div class="col-sm-4">
+          <div class="card">                      
+            <div class="card-body">
+                <div class="card-title card-title-skill text-center">
+                  <p class="fa fa-android" style="color: #4267b2;"></p>
+                </div>
+              <h5 class="card-title">HAND GUESTURE ROBOT</h5>
+              <p class="card-text"></p>
+              <a href="" class="btn btn-primary">CODE</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-4">
+          <div class="card">                      
+            <div class="card-body">
+                <div class="card-title card-title-skill text-center">
+                  <p class="fa fa-calculator" style="color: #4267b2;"></p>
+                </div>
+              <h5 class="card-title">CALCULATOR</h5>
+              <p class="card-text"></p>
+              <a href="" class="btn btn-primary">CODE</a>
+            </div>
+          </div>
+        </div>
+        
+</div>
 
-    <footer id="footer" class="pt-5 pb-5 bg-black">
+    <footer id="FOOTER" class="pt-5 pb-5 bg-black">
         <div class="container">
             <h1 class="text-center pt-5 text-light">Contact</h1>
             <hr style="border: 2px solid white ">
