@@ -1,493 +1,267 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="stylesheet" href="./CSS/style.css">
-    <link rel="stylesheet" href="./CSS/style_extra.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
-    <link href="https://unpkg.com/ionicons@4.5.10-0/dist/css/ionicons.min.css" rel="stylesheet">
-    <title>SAI SAMPATH KUMAR RAIGIRI</title>
-  </head>
-  <body>
-        <button class="fa fa-arrow-up" onclick="topFunction()" id="myBtn" title="Go to top"></button>
-        <nav class="navbar navbar-expand-lg bg-light " id="navbar">
-                <div class="justify-content-start"> 
-                    <a class="navbar-brand brand " href="#" id="logo" >
-                        <img src="./Images/IMG_1364.JPG" width="50" height="55" class="d-inline-block align-top rounded-circle" alt="">
-                    </a>
-                </div>
-                <div id="menu" class="d-flex justify-content-end menu">
-                    <ul class="navbar-nav">
-                        <li class="nav-item mr-sm-8 text-dark">
-                        <a href="#" onclick="getHomeModule()">HOME</a>
-                        </li>
-                        <li class="nav-item mr-sm-6 text-dark">
-                        <a href="#" onclick="getskillsModule()">SKILLS</a>
-                        </li>
-                        <li class="nav-item mr-sm-4 text-dark">
-                        <a href="#" onclick="getResumeModule()">RESUME</a>
-                        </li>
-                        <li class="nav-item mr-sm-2 text-dark">
-                        <a href="#" onclick="getProjectModule()">PROJECTS</a>
-                        </li>
-                        <li class="nav-item mr-sm-0 text-dark">
-                        <a href="#" onclick="getContactModule()">CONTACT</a>
-                        </li>
-                    </ul>
-                </div>
-        </nav>
-        <div id="HOME" style="width: 100%; margin-top: 60px;">
-            <img src="./Images/background-1-1.jpg" alt="background-1-1" style="width: 100%; height: 600px;background-color: black;">
-            <div class="centered">
-                <span style="font-size: 40px;">Hi, I am</span>
-                <p></p>
-                <span style="font-size: 70px; font-weight: bold;">SAI SAMPATH KUMAR RAIGIRI</span>
-                <p></p>
-                <span style="font-size: 20px;">Computer Science Graduate Student at University of Missouri Kansas City
-                </span>
-                <p></p>
-                <span>
-                <a  href="https://www.linkedin.com/in/sai-sampath-kumar-r-0a881373/" target="none" class="fa fa-icons fa-linkedin"></a>
-                <a href="https://github.com/saisampathkumar" class="fa fa-icons devicon-github-plain github" target="none"></a>
-                <a href="mailto:raigirissk@gmail.com" target="none" class="fa fa-icons devicon-google-plain google"></a>
-                <a href="https://www.facebook.com/rSaisampathkumar" target="none" class="fa fa-icons devicon-facebook-plain facebook"></a>
-                <a href="https://twitter.com/SampathkumarSai" target="none" class="fa fa-icons devicon-twitter-plain twitter"></a>
-            </span>
-            <p ></p>
-            <span style="text-decoration: none;"><button type="button" class="btn btn-info" style="padding: 5px;margin: 5px; text-decoration: none;"><a class="N" href="./Documents/Resume 1.pdf">RESUME</a></button></span>
+    <head>
+        <link rel="stylesheet" href="./stylesheet.css">
+        <title>Sampath's personal website</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, intial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
+        <!-- <link href="https://unpkg.com/ionicons@4.5.10-0/dist/css/ionicons.min.css" rel="stylesheet"> -->
+    </head>
+    <body>
+        <header class="main-header">
+            <div class="logo">
+                <a href="./index.html"><img src="./IMG_1364.JPG" alt="LOGO"></a>
             </div>
-        </div>
-        <div id="SKILLS" class="card" style="background-color: lightgray; border-radius: 0%;">
-            <h2  class="skills" >My Skills</h2>
-            <div class="container ">
-                <div class="row">
-                        <div class="card cards">
-                                <div class="card-body">
-                                  <div class="card-title card-title-skill text-center">
-                                      <p class="fa fa-th-list" style="color: #4267b2;"></p>
-                                  </div>
-                                  <h5 class="text-center">
-                                        Programming Languages | Frameworks
-                                    </h5>
-                                    <br>
-                                    <ul class="skill-list ">
-                                        <li class="devicon-java-plain-wordmark m-1 mb-1 mt-1"  aria-hidden="true" title="java"></li>
-                                        <li class="devicon-javascript-plain m-1 mb-1 mt-1"  aria-hidden="true" title="javascript"></li>
-                                        <li class="devicon-css3-plain-wordmark m-1 mb-1 mt-1" aria-hidden="true" title="css3"></li>
-                                        <li class="devicon-html5-plain-wordmark m-1 mb-1 mt-1" aria-hidden="true" title="html5"></li>
-                                        <li class="devicon-typescript-plain m-1 mb-1 mt-1"  aria-hidden="true" title="typescript"></li>
-                                        <li class="devicon-angularjs-plain m-1 mb-1 mt-1" aria-hidden="true" title="angularjs"></li>
-                                        <li class="devicon-python-plain-wordmark m-1 mb-1 mt-1" aria-hidden="true" title="python"></li>
-                                        <li class="devicon-android-plain-wordmark m-1 mb-1 mt-1" aria-hidden="true" title="android"></li>
-                                        <li class="devicon-bootstrap-plain-wordmark m-1 mb-1 mt-1" aria-hidden="true" title="bootstrap"></li>
-                                        <li class="devicon-express-original-wordmark m-1 mb-1 mt-1" aria-hidden="true" title="express"></li>
-                                        <li class="devicon-c-plain-wordmark m-1 mb-1 mt-1" aria-hidden="true" title="C_Language"></li>
-                                        <li class="devicon-nodejs-plain m-1 mb-1 mt-1 " aria-hidden="true" title="nodejs"></li>
-                                        <li class="icon ion-logo-ionic m-1 mb-1 mt-1" aria-hidden="true" title="ionic"></li>
-                                        <li class="devicon-jquery-plain-wordmark m-1 mb-1 mt-1" aria-hidden="true" title="jquery"></li>
-                                        <li  aria-hidden="true"></li>
-                                        <li  aria-hidden="true"></li>
-                                        <li  aria-hidden="true"></li>
-                                        
-                                        
-                                    </ul>
-                                </div>
-                            </div>
-                        <div class="card cards ">
-                                <div class="card-body justify-content-center">
-                                    <div class="card-title card-title-skill text-center">
-                                            <p class="fa fa-database" style="color: #4267b2;"></p>
-                                    </div>
-                                    <h5 class="text-center">
-                                        Data Base | Tools
-                                    </h5>
-                                    <ul class="skill-list">
-                                            <li class="devicon-mongodb-plain-wordmark m-1 mb-1 mt-1" aria-hidden="true" title="MONGO_DB"></li>
-                                            <li class="devicon-github-plain-wordmark m-1 mb-1 mt-1" aria-hidden="true" title="github"></li>
-                                            <li class="devicon-git-plain-wordmark m-1 mb-1 mt-1" aria-hidden="true" title="git"></li>
-                                            <li  aria-hidden="true"></li>
-                                            <li  aria-hidden="true"></li>
-                                            <li class="devicon-webstorm-plain-wordmark m-1 mb-1 mt-1" aria-hidden="true" title="webstorm"></li>
-                                            <li class="devicon-visualstudio-plain-wordmark m-1 mb-1 mt-1" aria-hidden="true" title="visualstudio"></li>
-                                            <li class="devicon-pycharm-plain-wordmark m-1 mb-1 mt-1" aria-hidden="true" title="pycharm"></li>
-                                            <li class="devicon-intellij-plain-wordmark m-1 mb-1 mt-1" aria-hidden="true" title="intellij"></li>
-                                            <li class="devicon-heroku-original-wordmark m-1 mb-1 mt-1" aria-hidden="true" title="heroku"></li>
-                                            <li class="devicon-photoshop-line" aria-hidden="true" title="photoshop"></li>
-                                            
-                                            
-                                        </ul>
-                                </div>
-                        </div>        
-                </div>
-                <div class="row justify-content-center">
-                        <div class="card cards">
-                                <div class="card-body">
-                                  <div class="card-title card-title-skill text-center">
-                                      <p class="fa fa-cogs" style="color: #4267b2;"></p>
-                                  </div>
-                                  <h5 class="text-center">
-                                        Working on
-                                    </h5>
-                                    <br>
-                                    <ul  class="skill-list" style="margin-left: 27%;">
-                                        <li class="devicon-react-original-wordmark m-1 mb-1 mt-1" aria-hidden="true"></li>
-                                        <li class="devicon-php-plain" aria-hidden="true"></li>
-                                    </ul>
-                                </div>
-                            </div>
-                            
-                </div>
-                
-            </div>
-        </div>
-<!-- <div>
-    <div class="d-md-flex h-md-100 mt-5">
-            <div class="col-md-1">
-            </div>
-            <div class="col-md-5 p-0 h-md-100 mb-1 fa fa-university" style="font-size: 40px;">
-            </div>
-            <div class="col-md-1">
-            </div>        
-            <div class="col-md-5 p-0 h-md-100 fa fa-briefcase" style="font-size: 40px;">
-            </div>
-        </div>
-        <div class="d-md-flex h-md-100 mb-5">
-            <div class="col-md-1">
-            </div>
-            <div class="col-md-5 p-0 h-md-100 timeline" style="margin-left: 20px;">
-                <div class="text-black d-md-flex row h-100 p-2">
-                    <div class="card arrow_box shadow p-3">
-                        <div class="timeline_date">AUG 2018 - DEC 2019</div>
-                        <div class="timeline_content">
-                            <p style="color: #474747;font-size: 20px;">University of Missouri Kansas City</p>
-                            <p>Masters in Computer Science</p>
-                            <p>GPA: 3.6</p>
-                        </div>
-                    </div>
-                    <div class="card arrow_box shadow p-3">
-                            <div class="timeline_date ">JUN 2013 - APR 2017</div>
-                            <div class="timeline_content">
-                                <p style="color: #474747;font-size: 20px;">GITAM University</p>
-                                <p>Bachelors in Electronics and Communication Engineering</p>
-                                <p>GPA: 3.6</p>
-                            </div>
-                        </div>
-                </div>
-            </div>
-            <div class="col-md-1">
-            </div>        
-            <div class="col-md-5 p-0 h-md-100 timeline">
-                <div class="d-md-flex align-items-center h-md-100 p-5 justify-content-center">
-                    <div class="text-black d-md-flex row h-100 p-2">
-                    <div class="card arrow_box shadow p-3">
-                        <div class="timeline_date">AUG 2018 - DEC 2019</div>
-                        <div class="timeline_content">
-                            <p style="color: #474747;font-size: 20px;">University of Missouri Kansas City</p>
-                            <p>Masters in Computer Science</p>
-                            <p>GPA: 3.6</p>
-                        </div>
-                    </div>
-                    <div class="card arrow_box shadow p-3">
-                            <div class="timeline_date ">JUN 2013 - APR 2017</div>
-                            <div class="timeline_content">
-                                <p style="color: #474747;font-size: 20px;">GITAM University</p>
-                                <p>Bachelors in Electronics and Communication Engineering</p>
-                                <p>GPA: 3.6</p>
-                            </div>
-                        </div>
-                </div><div class="text-black d-md-flex row h-100 p-2">
-                    <div class="card arrow_box shadow p-3">
-                        <div class="timeline_date">AUG 2018 - DEC 2019</div>
-                        <div class="timeline_content">
-                            <p style="color: #474747;font-size: 20px;">University of Missouri Kansas City</p>
-                            <p>Masters in Computer Science</p>
-                            <p>GPA: 3.6</p>
-                        </div>
-                    </div>
-                    <div class="card arrow_box shadow p-3">
-                            <div class="timeline_date ">JUN 2013 - APR 2017</div>
-                            <div class="timeline_content">
-                                <p style="color: #474747;font-size: 20px;">GITAM University</p>
-                                <p>Bachelors in Electronics and Communication Engineering</p>
-                                <p>GPA: 3.6</p>
-                            </div>
-                        </div>
-                </div>
-                </div>
-            </div>
-        </div>
-</div> -->
-    
 
-<div id="RESUME" class="container">
-    <div class="mt-5 text-center" style="width: 100%;">
-        <h2>Resume</h2>
-    </div>
-    <div class="row mt-4">
-            <div class="cards">
-                    <div class="page-header">
-                        <h3 id="timeline" style="color: #4267b2;">Education</h3>
-                    </div>
-                    <ul class="timeline">
-                        <li class="timeline-inverted">
-                          <div class="timeline-badge warning"><i class="fa fa-graduation-cap"></i></div>
-                          <div class="timeline-panel">
-                            <div class="timeline-heading">
-                              <h4 class="timeline-title">Univeristy of Missouri Kansas City</h4>
-                            </div>
-                            <div class="timeline-body">
-                              <p>Masters in Computer Science</p>
-                              <p>Expected Graduate DEC 2019</p>
-                              <p>GPA: 3.6</p>
-                            </div>
-                          </div>
-                        </li>
-                        <li class="timeline-inverted">
-                          <div class="timeline-badge warning"><i class="fa fa-university"></i></div>
-                          <div class="timeline-panel">
-                            <div class="timeline-heading">
-                              <h4 class="timeline-title">Univeristy of Missouri Kansas City</h4>
-                            </div>
-                            <div class="timeline-body">
-                              <p>Bachelors in Electronics and Computer Engineering</p>
-                              <p>2017</p>
-                              <p>GPA: 3.3</p>
-                            </div>
-                          </div>
-                        </li>
-                    </ul>
+            <input type="checkbox" class="menu-btn" id="menu-btn">
+            <label for="menu-btn" class="menu-icon">
+                <span class="menu-icon__line"></span>
+            </label>
+            <nav>
+                <ul class="nav-links">
+                    <li class="nav-link">
+                        <a href="./index.html">Home</a></li>
+                    <li class="nav-link">
+                        <a href="#">Resume</a></li>
+                    <li class="nav-link">
+                        <a href="#">Skills</a></li>
+                    <li class="nav-link">
+                        <a href="#">Projects</a></li>
+                    <li class="nav-link">
+                        <a href="#">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+        <button class="fa fa-arrow-up" onclick="topFunction()" id="myBtn" title="Go_to_top"></button>
+        <div class="Main-text">
+            <ul class="sep">
+                <br><br><br><br>
+                <div class="main-title">
+                    <h1>
+                        Hi, I am
+                    </h1>
+                    <h2>
+                        Sai Sampath Kumar Raigiri
+                    </h2>
+                    <h3>Computer Science Graduate Student at University of Missouri Kansas city</h3>
+                    <ul>
+                        <li ><a href="./Resume.pdf" target="none" class="fa fa-file-pdf-o"></a></li>
+                        <li ><a href="https://www.linkedin.com/in/sampath-r-0a881373/" target="none"  class="fa fa-linkedin"></a></li>
+                        <li ><a href="https://github.com/saisampathkumar" target="none" class="fa fa-github"></a></li>
+                        <li ><a href="mailto:raigirissk@gmail.com" target="none" class="fa fa-google"></a></li>
+                        <li ><a href="https://twitter.com/SampathkumarSai" target="none" class="fa fa-twitter"></a></li>
+                        <li ><a href="https://www.facebook.com/rSaisampathkumar" target="none" class="fa fa-facebook"></a></li>
+                    </ul> 
                 </div>
-            <div class="cards ml-4">
-                    <div class="page-header">
-                        <h3 id="timeline" style="color: #4267b2;">Experience</h3>
-                    </div>
-                    <ul class="timeline">
-                        <li class="timeline-inverted">
-                          <div class="timeline-badge warning"><i class="">1</i></div>
-                          <div class="timeline-panel">
-                            <div class="timeline-heading">
-                              <h4 class="timeline-title">University of Missouri Kansas City</h4>
-                              <h6>Student Assistent</h6>
-                              <p>Sept 2018 - Oct 2019</p>
-                            </div>
-                            <div class="timeline-body">
-                              <p></p>
-                            </div>
-                          </div>
-                        </li>
-                        <li class="timeline-inverted">
-                          <div class="timeline-badge warning"><i class="">2</i></div>
-                          <div class="timeline-panel">
-                            <div class="timeline-heading">
-                              <h4 class="timeline-title">Bharat Sanchar Nigam Limited</h4>
-                              <h6>Software Engineer</h6>
-                              <p>Jun 2017 – Jul 2018</p>
-                            </div>
-                            <div class="timeline-body">
-                              <p></p>
-                            </div>
-                          </div>
-                        </li><li class="timeline-inverted">
-                          <div class="timeline-badge warning"><i class="">3</i></div>
-                          <div class="timeline-panel">
-                            <div class="timeline-heading">
-                              <h4 class="timeline-title">Hindustan Computers Ltd</h4>
-                              <h6>Industrial Design Intern</h6>
-                              <p>May-Aug 2016</p>
-                            </div>
-                            <div class="timeline-body">
-                              <p></p>
-                            </div>
-                          </div>
-                        </li><li class="timeline-inverted">
-                          <div class="timeline-badge warning"><i>4</i></div>
-                          <div class="timeline-panel">
-                            <div class="timeline-heading">
-                              <h4 class="timeline-title">Bharat Sanchar Nigam Limited</h4>
-                              <h6>Program Analyst Intern</h6>
-                              <p>May - Aug 2015</p>
-                            </div>
-                            <div class="timeline-body">
-                              <p></p>
-                            </div>
-                          </div>
-                        </li>
-                    </ul>
-                </div>
-    </div>
-</div>
+            </ul>
+        </div>
 
-<div id="PROJECTS" class="card" style="background-color: lightgray; border-radius: 0%;">
-        <div class="mt-5 text-center" style="width: 100%;">
-                <h2>Some of my Projects</h2>
-<div class="row justify-content-center m-5">
-        <div class="col-sm-4">
-          <div class="card">                      
-            <div class="card-body">
-                <div class="card-title card-title-skill text-center">
-                  <p class="fa fa-whatsapp" style="color: #4267b2;"></p>
-                </div>
-              <h5 class="card-title">CHAT APPLICATION</h5>
-              <p class="card-text"></p>
-              <a href="" class="btn btn-primary">CODE</a>
-            </div>
-          </div>
-        </div>
-        <div class="col-sm-4">
-          <div class="card">                      
-            <div class="card-body">
-                <div class="card-title card-title-skill text-center">
-                  <p class="fa fa-graduation-cap" style="color: #4267b2;"></p>
-                </div>
-              <h5 class="card-title">STUDENT WORLD</h5>
-              <p class="card-text"></p>
-              <a href="" class="btn btn-primary">CODE</a>
-            </div>
-          </div>
-        </div>
-        <div class="col-sm-4">
-          <div class="card">                      
-            <div class="card-body">
-                <div class="card-title card-title-skill text-center">
-                  <p class="fa fa-user-md" style="color: #4267b2;"></p>
-                </div>
-              <h5 class="card-title">MEDICATION TAKE BACK</h5>
-              <p class="card-text"></p>
-              <a href="" class="btn btn-primary">CODE</a>
-            </div>
-          </div>
-        </div>
-</div><div class="row justify-content-center m-5">
-        <div class="col-sm-4">
-          <div class="card">                      
-            <div class="card-body">
-                <div class="card-title card-title-skill text-center">
-                  <p class="fa fa-gamepad" style="color: #4267b2;"></p>
-                </div>
-              <h5 class="card-title">GAMERS APPLICATION</h5>
-              <p class="card-text"></p>
-              <a href="" class="btn btn-primary">CODE</a>
-            </div>
-          </div>
-        </div>
-        <div class="col-sm-4">
-          <div class="card">                      
-            <div class="card-body">
-                <div class="card-title card-title-skill text-center">
-                  <p class="fa fa-twitter" style="color: #4267b2;"></p>
-                </div>
-              <h5 class="card-title">TWITTER DATA ANALYSIS</h5>
-              <p class="card-text"></p>
-              <a href="" class="btn btn-primary">CODE</a>
-            </div>
-          </div>
-        </div>
-        <div class="col-sm-4">
-          <div class="card">                      
-            <div class="card-body">
-                <div class="card-title card-title-skill text-center">
-                  <p class="fa fa-twitch" style="color: #4267b2;"></p>
-                </div>
-              <h5 class="card-title">SMART SWITCH</h5>
-              <p class="card-text"></p>
-              <a href="" class="btn btn-primary">CODE</a>
-            </div>
-          </div>
-        </div>
-</div>
-<div class="row justify-content-center m-5">
-        <div class="col-sm-4">
-          <div class="card">                      
-            <div class="card-body">
-                <div class="card-title card-title-skill text-center">
-                  <p class="fa fa-android" style="color: #4267b2;"></p>
-                </div>
-              <h5 class="card-title">HAND GUESTURE ROBOT</h5>
-              <p class="card-text"></p>
-              <a href="" class="btn btn-primary">CODE</a>
-            </div>
-          </div>
-        </div>
-        <div class="col-sm-4">
-          <div class="card">                      
-            <div class="card-body">
-                <div class="card-title card-title-skill text-center">
-                  <p class="fa fa-calculator" style="color: #4267b2;"></p>
-                </div>
-              <h5 class="card-title">CALCULATOR</h5>
-              <p class="card-text"></p>
-              <a href="" class="btn btn-primary">CODE</a>
-            </div>
-          </div>
-        </div>
-        
-</div>
-
-    <footer id="FOOTER" class="pt-5 pb-5 bg-black">
         <div class="container">
-            <h1 class="text-center pt-5 text-light">Contact</h1>
-            <hr style="border: 2px solid white ">
-            <div class="row">
-                <div class="col-4">
-                    <div class="card-body contact-item">
-                            <ul class="contact-list">
-                                <li class="fa fa-phone" aria-hidden="true" title="photoshop"> Contact:</li>
-                                <li>
-                                    <br>
-                                    +9173482546
-                                </li>
-                                <li>
-                                   <a href="mailto:raigirissk@gmail.com" title="Click to mail me">rsaisampathkumar@gmail.com</a> 
-                                </li>
-                            </ul>
-
+            <h1>Skills</h1>
+            <hr style="margin: 0 10%;">
+                <div class="child_div">
+                    <div class="child_divs" >
+                        <div class="logo fa fa-th-list"></div>
+                        <p>Programming Languages | Frameworks</p>
+                    <!-- <hr style="margin: 0 10%;"> -->
+                                                
+                        <ul>
+                            <li class="devicon-java-plain-wordmark " aria-hidden="true" title="java"></li>
+                            <li class="devicon-javascript-plain " aria-hidden="true" title="javascript"></li>
+                            <li class="devicon-css3-plain-wordmark " aria-hidden="true" title="css3"></li>
+                            <li class="devicon-html5-plain-wordmark " aria-hidden="true" title="html5"></li>
+                            <li class="devicon-typescript-plain " aria-hidden="true" title="typescript"></li>
+                            <li class="devicon-angularjs-plain " aria-hidden="true" title="angularjs"></li>
+                            <li class="devicon-python-plain-wordmark " aria-hidden="true" title="python"></li>
+                            <li class="devicon-android-plain-wordmark " aria-hidden="true" title="android"></li>
+                            <li class="devicon-bootstrap-plain-wordmark " aria-hidden="true" title="bootstrap"></li>
+                            <li class="devicon-express-original-wordmark " aria-hidden="true" title="express"></li>
+                            <li class="devicon-c-plain-wordmark " aria-hidden="true" title="C_Language"></li>
+                            <li class="devicon-nodejs-plain  " aria-hidden="true" title="nodejs"></li>
+                            <!-- <li class="icon ion-logo-ionic " aria-hidden="true" title="ionic"></li> -->
+                            <li class="devicon-jquery-plain-wordmark " aria-hidden="true" title="jquery"></li>                            
+                        </ul>
+                    </div>
+                    <div class="child_divs">
+                        <div class="logo fa fa-database"></div>
+                        <p>Data Base | Tools</p>
+                        
+                        <ul class="skill-list">
+                            <li class="devicon-mongodb-plain-wordmark" aria-hidden="true" title="MONGO_DB"></li>
+                            <li class="devicon-github-plain-wordmark" aria-hidden="true" title="github"></li>
+                            <li class="devicon-git-plain-wordmark" aria-hidden="true" title="git"></li>
+                            <li class="devicon-webstorm-plain" aria-hidden="true" title="webstorm"></li>
+                            <li class="devicon-visualstudio-plain" aria-hidden="true" title="visualstudio"></li>
+                            <li class="devicon-pycharm-plain" aria-hidden="true" title="pycharm"></li>
+                            <li class="devicon-intellij-plain" aria-hidden="true" title="intellij"></li>
+                            <li class="devicon-heroku-original-wordmark " aria-hidden="true" title="heroku"></li>
+                            <li class="devicon-photoshop-line" aria-hidden="true" title="photoshop"></li>                            
+                        </ul>
                     </div>
                 </div>
-                <div class="col-4">
-                        <div class="card-body contact-item">
-                                <ul class="contact-list">
-                                    <li class="fa fa-map-marker" aria-hidden="true" title="photoshop"> Location:</li>
-                                    <li>
-                                        <br>
-                                        Kansas City,
-                                    </li>
-                                    <li>
-                                        Missouri
-                                    </li>
-                                </ul>
-    
-                        </div>
+                <div class="child_div c">
+                    <div class="child_divs" style="height: 100%; padding-bottom: 50px;">
+                        <div class="logo fa fa-cogs"></div>
+                        <p>Working on</p>
+                        <ul class="skill-list">
+                            <li class="devicon-react-original-wordmark" aria-hidden="true"></li>
+                            <li class="devicon-php-plain" aria-hidden="true"></li>
+                        </ul>
+                    </div>
                 </div>
-                <div class="col-4">
-                        <div class="card-body contact-item">
-                                <ul class="contact-list">
-                                    <li class="fa fa-plus" aria-hidden="true" title="photoshop"> Follow me:</li>
-                                    <li>
-                                        <br>
-                                        <a href="https://www.linkedin.com/in/sai-sampath-kumar-r-0a881373/" class="fa fa-icons-footer fa-linkedin fa-linkedin-footer"></a>
-                                    </li>
-                                    <li>
-                                        <a href="https://github.com/saisampathkumar" class="fa fa-icons-footer devicon-github-plain github-footer"></a>                            
-                                    </li>
-                                    <li>
-                                        <a href="https://www.facebook.com/rSaisampathkumar" class="fa fa-icons-footer devicon-facebook-plain facebook-footer"></a>
-                                    </li>
-                                    <li>
-                                        <a href="https://twitter.com/SampathkumarSai" class="fa fa-icons-footer devicon-twitter-plain twitter-footer"></a>                
-                                    </li>
-                                </ul>
-    
+        </div>
+
+        <div class="container2">
+            <div class="parent_section">
+                <div class="title">
+                    <h3><i class="fa fa-book" style="font-size: 28px;"></i>  EDUCATION</h3>
+                </div>
+                <div class="section1">
+                    <div class="content" >
+                        <div class="card">
+                            <h2>University of Missouri Kansas City</h2>
+                            <p><b>Masters in Computer Science</b></p>
+                            <div    >2019</div  >
+                            <div>GPA: 3.6</div>
                         </div>
+                        <div class="card">
+                            <h2>GITAM University</h2>
+                            <p><b>Bachelors in Electronics and Communication Engineering</b></p>
+                            <div>2017</div>
+                            <div>GPA: 3.4</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="parent_section">
+                <div class="title">
+                    <h3> <i class="fa fa-briefcase" style="font-size: 28px;"></i>  EXPERIENCE</h3>
+                </div>
+                <div class="section2">
+                    <div class="content">
+                        <div class="card">
+                            <h2>University of Missouri Kansas City</h2>
+                            <p><b>Student Asistant</b></p>
+                            <p>Sept 2018 - Oct 2019</p>
+                            <div> • Performing Administrative tasks required by the staff and Lecture presentation.</div>
+                            <div> • Helping patrons in every possible way.</div>
+                            <div> •	Supervising and helping with all the labs, assisting with other subjects, grading the quizzes, assignments and labs and so on.</div>
+                            <div> •	Grading, helping students to understand the topic, learning how to use different new software to help and grade the student’s work, prepare presentations for the classes and so on.</div>
+                        </div>
+                        <div class="card">
+                            <h2>BSNL Telecome Factory</h2>
+                            <p><b>Software Engineering</b></p>
+                            <div> • Developed user interface with adaptable services from BSNL users.</div>
+                            <div> • Creating DB Schemes with indexing and Developing REST Services using Java and SQL.</div>
+                            <div> • Analyze and communicate potential risks during project execution and propose appropriate mitigation plans.</div>
+                            <div> • Used <span style="color:blueviolet;font-weight: 900;">Angular, NodeJS, ExpressJS, MongoDB</span></div>
+                        </div>
+                        <div class="card">
+                            <h2>Hindustan Computers Ltd</h2>
+                            <p><b>Industrial Design Intern</b></p>
+                            <div> •	Gained enormous knowledge on the working of Embedded Systems </div>
+                            <div> • Designed robot which can be controlled using both Android application and Hand Gesture (Micro Electromechanical System Sensor).</div>
+                        </div>
+                        <div class="card">
+                            <h2>Bharath Samchar Nigam Ltd</h2>
+                            <div>•	Practical training helped me in gaining knowledge about the working of telephone exchange, various technologies of BSNL-GSM, GPRS, Wi-Fi, Wi-Max and Optical Fiber Transmission.</div>
+                        </div>
+                    </div>
+                </div>    
+            </div>
+        </div>
+
+        <div class="container3">
+            <h1>Some of my Projects</h1>
+            <div class="containe3_parent">
+                <div class="container3_child">
+                    <i class="fa fa-comments-o"></i>
+                    <h2>Chat Application</h2>
+                    <p>Developed an android application which can take care of all user’s communications through call and messages.</p>
+                    <i>Android Studio, Kotlin, AWS Server, Java</i><br><br>
+                    <a href="https://github.com/saisampathkumar/Web_Lab/tree/master/Lab2">CODE</a>
+                </div>
+                <div class="container3_child">
+                    <i class="fa fa-graduation-cap"></i>
+                    <h2>Student World</h2>
+                    <p>Developed a web application provides innovative and flexible services that enable institution to drive student success throughout the entire student journey.</p>
+                    <i>Angular, Express-Js, Node-Js, HTML, CSS, Bootstrap, MongoDB.</i>
+                    <br><br>
+                    <a href="https://github.com/saisampathkumar/Web_Lab/tree/master/Lab1">CODE</a>
+                </div>
+                <div class="container3_child">
+                    <i class="fa fa-medkit"></i>
+                    <h2>Medication Take Back</h2>
+                    <p>Developed an Ionic application to save, analyze and export the data of the expired or unused medications during medication take back program which can be used for future precautions.</p>
+                    <i>Ionic App, HTML, CSS, Bootstrap, Angular, JavaScript and MongoDB, Drug Bank.</i><br><br>
+                    <a href="https://github.com/saisampathkumar/Medication-Take-Back">CODE</a>
+                </div>
+                <div class="container3_child">
+                    <i class="fa fa-gamepad" ></i >
+                    <h2>Gamers Application</h2>
+                    <p>Developed an Ionic application as a gaming advisor based on the user requirements.</p>
+                    <i>Ionic, HTML, CSS, TypeScript, Angular JS, JSON, MongoDB, Express-Js, Node-JS.</i><br><br>
+                    <a href="https://github.com/amngb95/Hackathon18Fall">CODE</a>
+                </div>
+                <div class="container3_child">
+                    <i class="fa fa-twitter"></i>
+                    <h2>Twitter Data Analysis</h2>
+                    <p>Developed a system to store, analyze, visualize the twitter data on hashtag #Fitness, #Yoga using twitter streaming API and store it in Hadoop Distributed File System.</p>
+                    <i>Apache Spark, Hadoop, Python, Spark SQL, Apache Zeppelin, AJAX, HTML5, Docker.</i><br><br>
+                    <a href="https://github.com/saisampathkumar/Twitter-Data-Analysis">CODE</a>
+                </div>
+                <div class="container3_child">
+                    <i class="fa fa-twitch"></i>
+                    <h2>Smart switch</h2>
+                    <p>Developed an android application and a smart device to control all electronic devices in any environment. Can be operated through offline messages.</p>
+                    <i>Android Studio, Embedded Systems.</i>
+                </div>
+                <div class="container3_child">
+                    <i class="fa fa-android" ></i>
+                    <h2>Hand Guesture Robot</h2>
+                    <p>Developed an android application and a robot which can be controlled by both hand gesture and a smart phone using an application.</p>
+                    <i>Android Studio, Embedded Systems, MEMS sensor.</i>
+                </div>
+                <div class="container3_child">
+                    <i class="fa fa-calculator"></i>
+                    <h2>Calculator</h2>
+                    <p>Developed an android application to make all mathematic calculation easier to the user</p>
+                    <i >Android Studio</i><br><br>
+                    <a href="https://github.com/saisampathkumar/Android/tree/master/Calculator">CODE</a>
                 </div>
             </div>
         </div>
-    </footer>
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-    <script src="./script/script.js"></script>
-  </body>
+
+        <div class="contact">
+
+        </div>
+
+        <footer class="main-footer">
+            <div class="cntct">
+                <div  class="cntct_child">
+                    <h3 class="fa fa-phone">  Contact</h3>
+                    <p>+9173482546</p> 
+                    <a href="mailto:raigirissk@gmail.com" target="none" >rsaisampathkumar@gmail.com</a>
+                </div >
+                <div class="cntct_child">
+                    <h3 class="fa fa-map-marker">  Location</h3>
+                    <p>Kansas City, Missouri</p>
+                </div>
+                <div class="cntct_child">
+                    <h3 class="fa fa-plus-circle">  Follow me</h3>
+                    <ul>
+                        <li ><a href="https://www.linkedin.com/in/sampath-r-0a881373/" target="none"  class="fa fa-linkedin"></a></li>
+                        <li ><a href="https://github.com/saisampathkumar" target="none" class="fa fa-github"></a></li>
+                        <li ><a href="mailto:raigirissk@gmail.com" target="none" class="fa fa-google"></a></li>
+                        <li ><a href="https://twitter.com/SampathkumarSai" target="none" class="fa fa-twitter"></a></li>
+                        <li ><a href="https://www.facebook.com/rSaisampathkumar" target="none" class="fa fa-facebook"></a></li>
+                    </ul> 
+                </div>
+            </div>
+        </footer>
+    <script src="./script.js"></script>
+    </body>
 </html>
