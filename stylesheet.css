@@ -211,7 +211,7 @@ ul li{
     color: white;
     text-transform: uppercase;
     padding: 1rem;
-    font-family: Calibri;
+    /* font-family: Calibri; */
     font-size: 35px;
 }
 
@@ -269,7 +269,7 @@ ul li{
     color: black;
     justify-content: center;
     text-align: start;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    /* font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; */
     display: flex;
     /* background-image: linear-gradient(to bottom right , #999999, #474749); */
     background-image: url('./374113-edu-resume-template.marquee-background-image.1440x888.jpg');
@@ -350,7 +350,7 @@ ul li{
     color: #fff;
     justify-content: center;
     text-align: start;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    /* font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; */
     display: block;
     /* background-image: linear-gradient(to bottom right , #999999, #474749); */
     /* background-image: url('https://landing.adobe.com/dam/2017/images/374113-edu-resume-template.marquee-background-image.1440x888.jpg'); */
@@ -362,7 +362,7 @@ ul li{
     color: white;
     text-transform: uppercase;
     padding: 3rem;
-    font-family: Calibri;
+    /* font-family: Calibri; */
     font-size: 35px;
 }
 .container3 .containe3_parent{
@@ -588,7 +588,7 @@ background: #202020;
     .container h1{
         padding: 1rem;
         font-size: 2rem;
-        font-family: Calibri;
+        /* font-family: Calibri; */
     }
     .container .child_div{
         display: block;
